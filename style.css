@@ -28,13 +28,13 @@ body {
   text-decoration: none;
 }
 
-.main__gallery {
+.gallery {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
 
-.img__gallery {
+.img {
   margin: 8px;
 }
