@@ -1,6 +1,6 @@
 body {
-  background-color: #fefefe;
-  color: #254441;
+  background-color: #f1f5f2;
+  color: #14281d;
 }
 
 .navigation__link {
@@ -9,6 +9,10 @@ body {
   margin-left: 8px;
 }
 
+.main {
+  max-width: 1000px;
+  margin: 0 auto;
+}
 .main__heading {
   color: #ff6f59;
 }
