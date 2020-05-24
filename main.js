@@ -13,7 +13,7 @@
 
 const humanOne = {
   name: 'Maciek',
-  age: 40,
+  age: 35,
   address: {
     street: 'Długa',
     city: 'Białystok'
@@ -22,7 +22,7 @@ const humanOne = {
 
 const humanTwo = {
   name: 'Mateusz',
-  age: 35,
+  age: 0,
   address: {
     street: 'Krótka',
     city: humanOne.address.city
@@ -32,9 +32,27 @@ const humanTwo = {
 console.log(humanOne);
 console.log(humanTwo);
 
-
-if (humanOne.age > humanTwo.age) {
+if ((humanOne.age === 0) || (humanTwo.age === 0)) {
+  console.log("Któryś z Humanów nie żyje")
+} else if (humanOne.age > humanTwo.age) {
   console.log("Human one jest starszy");
-} else {
+} else if (humanTwo.age > humanOne.age) {
   console.log("Human two jest starszy");
+} else if (humanOne.age == humanTwo.age) {
+  console.log('Mają tyle samo lat');
+} else if (humanOne.age == 0) {
+  console.log("Human One nie żyje")
+} else if (humanTwo.age == 0) {
+  console.log("Human Two nie żyje")
 }
+
+// test Nan
+
+const stringTest = 'test';
+const stringTest2 = 'test2';
+
+var wynik = stringTest2 - stringTest;
+
+console.log(wynik);
+
+// test Nan
