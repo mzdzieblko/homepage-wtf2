@@ -4,20 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="normalize.css" />
     <title>Moja nowa strona szkoleniowa WTF</title>
   </head>
   <body>
     <header class="header">
-      <nav class="navigation">
+      <nav class="navigation navigation--js">
         <a class="navigation__link" href="index.html">Strona główna</a>
         <a class="navigation__link" href="nauka_html.html">Podstrona</a>
         <a class="navigation__link" href="galeria.html">Galeria</a>
+        <a class="navigation__link" href="nauka_html.html">Podstrona</a>
+        <a class="navigation__link" href="galeria.html">Galeria</a>
       </nav>
+      <button
+        class="navigation__button navigation__button--js"
+        aria-label="Otwórz menu"
+      >
+        🍔
+      </button>
     </header>
     <main class="main">
-      <h1 id="top" class="main__heading">
+      <h1 id="top" class="main__heading main__heading--js">
         Mateusz Zdziebłko - moja kolejna strona kursowa
       </h1>
+      <button class="action--js">Zmień mnie</button>
       <section class="hello">
         <h2 class="hello__heading">Kim jestem?</h2>
         <p class="hello__paragraph">

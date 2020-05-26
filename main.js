@@ -1,15 +1,15 @@
-// const name = "Mateusz";
-// const age = 31;
+const name = "Mateusz";
+const age = 31;
 
-// console.log(`Nazwam się ${name},
-// mam ${age} lat
-// i zaczynam lubić JS`);
+console.log(`Nazwam się ${name},
+mam ${age} lat
+i zaczynam lubić JS`);
 
-// const empty = document.querySelector(".empty-js"); // document.querySelector "zapisuje" do zmienne
+const empty = document.querySelector(".empty-js"); // document.querySelector "zapisuje" do zmienne
 
-// console.log(empty);
+console.log(empty);
 
-// empty.innerHTML = "Test pustego diva";
+empty.innerHTML = "Test pustego diva";
 
 const humanOne = {
   name: 'Maciek',
@@ -56,3 +56,25 @@ var wynik = stringTest2 - stringTest;
 console.log(wynik);
 
 // test Nan
+
+const button = document.querySelector('.action--js');
+
+
+
+button.addEventListener('click', () => {
+  const heading = document.querySelector(".main__heading--js")
+  heading.innerHTML = "Podmiana po kliknięciu";
+  heading.classList.toggle('klasa-z-js')
+});
+
+//zmienna. addEventListener('co wywołuje',funkcja która się wykona po 'co wywwołuje')
+
+//przetestuj efekt powiekszenia zdjęcia po najechaniu myszką
+
+
+const hamburger = document.querySelector('.navigation__button--js');
+
+hamburger.addEventListener('click', () => {
+  const nav = document.querySelector('.navigation--js');
+  nav.classList.toggle('navigation--open');
+})
