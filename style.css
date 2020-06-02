@@ -55,10 +55,11 @@ body {
 }
 
 .gallery {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 16px;
   flex-wrap: wrap;
+  justify-items: center;
 }
 
 .img {
@@ -69,6 +70,8 @@ body {
   background: yellow;
 }
 .navigation__button {
+  border: none;
+  background: none;
   position: absolute;
   top: 16px;
   right: 16px;
