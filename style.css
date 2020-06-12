@@ -35,6 +35,10 @@ body {
   margin: 0 0 16px;
 }
 
+.navigation__link:hover {
+  color: yellow;
+}
+
 .main {
   max-width: 1000px;
   margin: 60px 0 auto;
@@ -47,6 +51,30 @@ body {
   border: 2px #02583f solid;
   border-radius: 24px;
   padding: 8px;
+}
+
+.hello__paragraph:hover {
+  color: #ff0404;
+  border: 8px solid yellow;
+  border-radius: 8px;
+}
+
+.article__heading::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: #ff0404;
+  border-radius: 50%;
+}
+
+.article__heading::after {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: #ff6f59;
+  border-radius: 50%;
 }
 
 .footer__link {
