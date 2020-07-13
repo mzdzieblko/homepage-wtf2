@@ -1,0 +1,34 @@
+.navigation {
+  padding: 16px;
+  display: none;
+  &__button {
+    border: none;
+    background: none;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+  }
+  &__link {
+    display: block;
+    color: #ff0404;
+    text-decoration: none;
+    margin: 0 0 16px;
+  }
+  &__link:hover {
+    color: yellow;
+  }
+  &--open {
+    display: block;
+  }
+  @media (min-width: 768px) {
+    padding: 16px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    height: 24px;
+    align-items: center;
+  }
+  &__button {
+    display: none;
+  }
+}

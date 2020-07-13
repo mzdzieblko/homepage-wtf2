@@ -1,0 +1,31 @@
+.article__heading::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: #ff0404;
+  border-radius: 50%;
+}
+
+.article__heading::after {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: #ff6f59;
+  border-radius: 50%;
+}
+
+.main__heading {
+  font-family: "Montserrat", sans-serif;
+}
+
+.hello__heading {
+  font-family: "Montserrat", sans-serif;
+}
+.notes__heading {
+  font-family: "Montserrat", sans-serif;
+}
+.article__heading {
+  font-family: "Montserrat", sans-serif;
+}
