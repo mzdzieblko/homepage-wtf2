@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/mzdzieblko/hommepage-wtf2#readme",
   "dependencies": {
+    "moment": "^2.27.0",
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {
