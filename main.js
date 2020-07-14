@@ -79,3 +79,22 @@ hamburger.addEventListener('click', () => {
   nav.classList.toggle('navigation--open');
 })
 
+let isDark = true;
+
+
+const switcher = document.querySelector(".dark--js");
+
+switcher.addEventListener('click', () => {
+  if (isDark) {
+    document.documentElement.style.setProperty("--background-color", "#FAFAFF");
+    document.documentElement.style.setProperty("--text-color", "#000000");
+    isDark = false;
+    console.log(isDark);
+  } else {
+    document.documentElement.style.setProperty("--background-color", "#000000");
+    document.documentElement.style.setProperty("--text-color", "#FAFAFF");
+    isDark = true;
+    console.log(isDark);
+  }
+
+})

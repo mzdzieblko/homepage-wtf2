@@ -12,9 +12,19 @@ html {
   box-sizing: inherit;
 }
 body {
-  background-color: #f1f5f2;
-  color: #14281d;
+  // background-color: #f1f5f2;
+  // color: #14281d;
   font-family: "Lato", sans-serif;
+}
+
+:root {
+  --background-color: #000000;
+  --text-color: #fafaff;
+}
+
+body {
+  background: var(--background-color);
+  color: var(--text-color);
 }
 
 .header {
